@@ -42,6 +42,7 @@ describe("orao-vrf", () => {
 		});
 	});
 
+	
 	describe("GUESS", () => {
 		it("guesses a random!", async () => {
 			let txHash = await program.methods
